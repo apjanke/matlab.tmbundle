@@ -466,15 +466,6 @@
 				</dict>
 			</array>
 		</dict>
-		<key>not_equal_invalid</key>
-		<dict>
-			<key>comment</key>
-			<string>Not equal is written ~= not !=.</string>
-			<key>match</key>
-			<string>\s*!=\s*</string>
-			<key>name</key>
-			<string>invalid.illegal.invalid-inequality.octave</string>
-		</dict>
 		<key>number</key>
 		<dict>
 			<key>comment</key>
@@ -534,7 +525,7 @@
 			<key>comment</key>
 			<string>Operator symbols</string>
 			<key>match</key>
-			<string>\s*(\+\+|--|\+=|-=|\*=|\/=|\^=|\.\*=|\.\/=|\.\^=|==|~=|&gt;|&gt;=|&lt;|&lt;=|&amp;|&amp;&amp;|:|\||\|\||\+|-|\*|\.\*|/|\./|\\|\.\\|\^|\.\^|!)\s*</string>
+			<string>\s*(\+\+|--|\+=|-=|\*=|\/=|\^=|\.\*=|\.\/=|\.\^=|==|~=|\!=|&gt;|&gt;=|&lt;|&lt;=|&amp;|&amp;&amp;|:|\||\|\||\+|-|\*|\.\*|/|\./|\\|\.\\|\^|\.\^|!)\s*</string>
 			<key>name</key>
 			<string>keyword.operator.symbols.octave</string>
 		</dict>
